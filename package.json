@@ -1,0 +1,21 @@
+{
+  "name": "simple-cli-word-counter-test",
+  "version": "3.0.0",
+  "description": "it is an simple cli word counter application",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "simple-cli-word-counter": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhib ALi Siddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
